@@ -56,6 +56,28 @@ const styles = StyleSheet.create({
         color: '#707070',
         borderColor: '#000000',
         borderWidth: 1
+    },
+    addLogScreenTitleText: {
+        backgroundColor: '#8DBEB4',
+        color: '#FFFFFF',
+    },
+    submitButton: {
+        backgroundColor: '#489892',
+    },
+    submitButtonText: {
+        fontWeight: 'bold',
+        color: '#FFFFFF',
+    },
+    textInputFeildRed: {
+        backgroundColor: '#E6605E',
+        width: '60%',
+        height: 60,
+        fontSize: 20,
+        padding: 20,
+        textAlign: 'center',
+        fontWeight: 'bold',
+        color: '#FFFFFF',
+        borderRadius: 25,
     }
 });
 export default styles;

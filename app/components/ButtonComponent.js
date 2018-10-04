@@ -8,7 +8,9 @@ export default class ButtonComponent extends React.Component {
             <TouchableHighlight
                 style={[styles.mainButton,this.props.style]}
                 onPress={this.props.onPress} >
-                <Text style={[styles.mainButtonText,this.props.textStyle]}> {this.props.buttonText} </Text>
+                <Text style={[styles.mainButtonText,this.props.textStyle]}>
+                    {this.props.buttonText}
+                </Text>
             </TouchableHighlight>
         );
     }

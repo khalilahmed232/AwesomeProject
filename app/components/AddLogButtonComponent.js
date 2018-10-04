@@ -9,6 +9,7 @@ export default class AddLogButtonComponent extends Component {
                 buttonText={this.props.buttonText}
                 style={styles.addLogButton}
                 textStyle={styles.addLogButtonText}
+                onPress={this.props.onPress}
                 >
             </ButtonComponent>
         );
