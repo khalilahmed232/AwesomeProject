@@ -9,7 +9,9 @@ export default class TextInputFeildRed extends Component {
             <TextInput
                 style={styles.textInputFeildRed}
                 underlineColorAndroid="transparent"
-                placeholder="Log here"
+                placeholder={this.props.placeholder}
+                onChangeText={this.props.onChangeText}
+                text={this.props.text}
                 >
             </TextInput>
         );
