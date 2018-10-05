@@ -19,8 +19,8 @@ import AddLogScreen from './app/screen/AddLogScreen';
 import ViewLogScreen from './app/screen/ViewLogScreen';
 
 import SingleAddLogScreen from './app/screen/addLog/SingleAddLogScreen';
-import StartEndAddLogScreen from './app/screen/addLog/StartEndAddLogScreen';
-import NumberAddLogScreen from './app/screen/addLog/NumberAddLogScreen';
+
+import './ReactotronConfig'
 
 export default class App extends React.Component {
   render() {
@@ -34,8 +34,6 @@ const RootStack = createStackNavigator(
         AddLog: AddLogScreen,
         ViewLog: ViewLogScreen,
         SingleAddLog: SingleAddLogScreen,
-        StratEndAddLog: StartEndAddLogScreen,
-        NumberAddLog: NumberAddLogScreen
     },
     {
         initialRouteName: 'Home',

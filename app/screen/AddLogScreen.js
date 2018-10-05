@@ -21,11 +21,6 @@ export default class AddLogScreen extends Component {
                         onPress={() => this.props.navigation.navigate('StratEndAddLog')}
                         >
                     </AddLogButtonComponent>
-                    <AddLogButtonComponent
-                        buttonText="Number"
-                        onPress={() => this.props.navigation.navigate('NumberAddLog')}
-                        >
-                    </AddLogButtonComponent>
                 </View>
             </View>
         );
